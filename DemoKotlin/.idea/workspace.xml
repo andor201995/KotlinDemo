@@ -12,41 +12,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HelloNullCheck.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HelloNullCheck.kt">
+      <file leaf-file-name="HelloCollection.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HelloCollection.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="28">
+              <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloKotlinKt.class" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/production/DemoKotlin/HelloKotlinKt.class">
+      <file leaf-file-name="HelloFunction.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HelloFunction.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloWhen.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HelloWhen.kt">
+      <file leaf-file-name="HelloOverloadingFunction.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HelloOverloadingFunction.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloLoop.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/HelloLoop.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+            <state relative-caret-position="285">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,10 +65,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/HelloKotlin.kt" />
-        <option value="$PROJECT_DIR$/src/HelloVariable.kt" />
         <option value="$PROJECT_DIR$/src/HelloNullCheck.kt" />
         <option value="$PROJECT_DIR$/src/HelloWhen.kt" />
         <option value="$PROJECT_DIR$/src/HelloLoop.kt" />
+        <option value="$PROJECT_DIR$/src/HelloVariable.kt" />
+        <option value="$PROJECT_DIR$/src/HelloCollection.kt" />
+        <option value="$PROJECT_DIR$/src/HelloFunction.kt" />
+        <option value="$PROJECT_DIR$/src/HelloOverloadingFunction.kt" />
       </list>
     </option>
   </component>
@@ -147,10 +140,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.HelloLoopKt">
-    <configuration name="HelloKotlinKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.HelloOverloadingFunctionKt">
+    <configuration name="HelloCollectionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="HelloKotlinKt" />
+      <option name="MAIN_CLASS_NAME" value="HelloCollectionKt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DemoKotlin" />
+      <envs />
+    </configuration>
+    <configuration name="HelloFunctionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="HelloFunctionKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -172,9 +177,9 @@
       <module name="DemoKotlin" />
       <envs />
     </configuration>
-    <configuration name="HelloNullCheckKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="HelloOverloadingFunctionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="HelloNullCheckKt" />
+      <option name="MAIN_CLASS_NAME" value="HelloOverloadingFunctionKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -187,18 +192,6 @@
     <configuration name="HelloVariableKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="HelloVariableKt" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DemoKotlin" />
-      <envs />
-    </configuration>
-    <configuration name="HelloWhenKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="HelloWhenKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -290,19 +283,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Kotlin.HelloKotlinKt" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.HelloVariableKt" />
-      <item index="2" class="java.lang.String" itemvalue="Kotlin.HelloNullCheckKt" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.HelloWhenKt" />
-      <item index="4" class="java.lang.String" itemvalue="Kotlin.HelloLoopKt" />
+      <item index="0" class="java.lang.String" itemvalue="Kotlin.HelloVariableKt" />
+      <item index="1" class="java.lang.String" itemvalue="Kotlin.HelloLoopKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.HelloCollectionKt" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.HelloFunctionKt" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.HelloOverloadingFunctionKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.HelloLoopKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.HelloWhenKt" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.HelloNullCheckKt" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.HelloOverloadingFunctionKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.HelloFunctionKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.HelloCollectionKt" />
         <item index="3" class="java.lang.String" itemvalue="Kotlin.HelloVariableKt" />
-        <item index="4" class="java.lang.String" itemvalue="Kotlin.HelloKotlinKt" />
+        <item index="4" class="java.lang.String" itemvalue="Kotlin.HelloLoopKt" />
       </list>
     </recent_temporary>
   </component>
@@ -322,12 +315,12 @@
       <option name="presentableId" value="Default" />
       <updated>1505991530841</updated>
       <workItem from="1505991535882" duration="1268000" />
-      <workItem from="1506002210885" duration="5282000" />
+      <workItem from="1506002210885" duration="9546000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6550000" />
+    <option name="totallyTimeSpent" value="10814000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -398,26 +391,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HelloVariable.kt">
+    <entry file="file://$PROJECT_DIR$/src/HelloLoop.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HelloNullCheck.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/DemoKotlin/HelloKotlinKt.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="60">
+          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -430,10 +407,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HelloLoop.kt">
+    <entry file="file://$PROJECT_DIR$/out/production/DemoKotlin/HelloKotlinKt.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HelloNullCheck.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HelloVariable.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HelloCollection.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HelloFunction.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HelloOverloadingFunction.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>

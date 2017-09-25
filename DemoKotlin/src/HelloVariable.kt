@@ -11,6 +11,9 @@ fun main(args: Array<String>) {
 
     var f: Float = 3.14F
     var d: Double = 3.14
-    var list: List<String>?
-    print("dept:$dept")
+    var list = ArrayList<String>()
+    list.add(fName)
+    list.add(fName)
+    println("$list")
+    println("dept:$dept")
 }
