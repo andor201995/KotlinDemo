@@ -1,3 +1,5 @@
+package com.andor.kotlin.basic
+
 fun main(agrs: Array<String>) {
     println("Enter a number")
     var i = readLine()!!.toInt()

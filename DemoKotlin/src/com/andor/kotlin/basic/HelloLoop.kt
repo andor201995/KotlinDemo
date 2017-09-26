@@ -1,3 +1,5 @@
+package com.andor.kotlin.basic
+
 fun main(args: Array<String>) {
     item1loop@ for (item1 in 1..10) {
         println(item1)

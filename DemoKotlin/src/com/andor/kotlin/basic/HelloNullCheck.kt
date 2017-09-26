@@ -1,3 +1,5 @@
+package com.andor.kotlin.basic
+
 fun main(args:Array<String>){
     var name :String ?  // no null check
 //    name=null
