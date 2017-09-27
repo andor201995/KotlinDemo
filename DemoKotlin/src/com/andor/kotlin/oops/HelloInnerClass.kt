@@ -1,9 +1,9 @@
 package com.andor.kotlin.oops
 
-import com.andor.kotlin.oops.Outer.Inner
 
 fun main(args: Array<String>) {
-    var inner = Inner()
+    var inner = Outer().Inner()
+    inner.dispInner()
 
 }
 
@@ -11,6 +11,10 @@ class Outer {
 
     init {
         println("Outer class Constructor")
+    }
+
+    fun dummy() {
+        var inner = Inner()
     }
 
     inner class Inner {
